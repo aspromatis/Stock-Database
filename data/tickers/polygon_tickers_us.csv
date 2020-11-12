@@ -1,0 +1,4 @@
+ticker,name,market,locale,type,currency,active,primaryExch,updated,attrs,url,codes
+AAPL,Apple Inc. Common Stock,STOCKS,US,,USD,True,NASDAQ,2020-06-23,,https://api.polygon.io/v2/tickers/AAPL,"{'cik': '0000320193', 'figiuid': 'EQ0010169500001000', 'scfigi': 'BBG001S5N8V8', 'cfigi': 'BBG000B9XRY4', 'figi': 'BBG000B9Y5X2'}"
+GOOG,Alphabet Inc. Class C Capital Stock,STOCKS,US,,USD,True,NASDAQ,2020-06-23,,https://api.polygon.io/v2/tickers/GOOG,"{'cik': '0001652044', 'figiuid': 'EQ0000000044670269', 'scfigi': 'BBG009S3NB21', 'cfigi': 'BBG009S3NB30', 'figi': 'BBG009S4MVF2'}"
+TSLA,"Tesla, Inc. Common Stock",STOCKS,US,,USD,True,NASDAQ,2020-06-23,,https://api.polygon.io/v2/tickers/TSLA,"{'cik': '0001318605', 'figiuid': 'EQ0000000003531703', 'scfigi': 'BBG001SQKGD7', 'cfigi': 'BBG000N9MNX3', 'figi': 'BBG000N9P426'}"
