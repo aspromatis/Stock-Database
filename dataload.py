@@ -2,6 +2,7 @@
 import pandas as pd
 import psycopg2
 import os
+import matplotlib
 from sqlalchemy import create_engine
 from tqdm import tqdm_notebook
 
@@ -156,5 +157,5 @@ prices_df
 #I can also pass in a sql query
 prices_df2 = pd.read_sql_query('select * from daily_prices', engine, index_col=['symbol', 'date'])
 
-# Show results of df
-prices_df2
+# Plot the results
+prices_df2.loc[['TSLA']]['close_adj'].plot()

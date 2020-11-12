@@ -1,5 +1,12 @@
-# x
+# How to create a PostgreSQL stock database using Python
 
+This code example will help you create your own stock pricing database using PostgreSQL and Python.  The code will create two separate tables:
+
+daily_prices:  A table containing daily OHLCV stock pricing information (pkey:  symbol, date)
+
+tickers:  A table containing detailed information on each ticker/symbol in the daily_prices table (pkey: symbol)
+
+Note:  The database password is stored as an environmental variable.
 
 ## Requirements
 
@@ -26,3 +33,4 @@ Alternatively, you can take a look at the requirements.txt file and install what
 Note, I'm using VS Code with the ipykernel (Jupyter Notebook) capability to run in a notebook like experience.  You can certainly also run this without this.
 
 
+Additional instructions on my [YouTube channel](https://www.youtube.com/c/ErolAspromatis)
