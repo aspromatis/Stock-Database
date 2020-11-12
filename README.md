@@ -8,11 +8,15 @@ tickers:  A table containing detailed information on each ticker/symbol in the d
 
 Note:  The database password is stored as an environmental variable.
 
-## Requirements
+## Database Requirements
 
 Download and install [PostgreSQL](https://www.postgresql.org/)
 
 Download and install [pgAdmin](https://www.pgadmin.org/)
+
+Create a new database instance in pgAdmin, name the new database 'stockdata'
+
+## Python Requirements
 
 Download and install [Anaconda](https://www.anaconda.com/products/individual)
 
